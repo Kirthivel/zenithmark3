@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import zenith_mark_3
 
 class zenith_mark_3Tests: XCTestCase {
 

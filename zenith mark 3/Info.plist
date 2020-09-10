@@ -16,10 +16,42 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1077762975290-okbohds7psnohtrqq1hm8rhas4gbm0g6</string>
+				<string>fb296286601719586</string>
+				<string>msauth.[BUNDLE_ID]</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>296286601719586</string>
+	<key>FacebookDisplayName</key>
+	<string>Zenith</string>
+	<key>Google_Scheme</key>
+	<string>goog1234</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbauth2</string>
+		<string>msauthv2</string>
+		<string>msauthv3</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Kollektif-Bold.ttf</string>
+		<string>Kollektif-BoldItalic.ttf</string>
+		<string>Kollektif-Italic.ttf</string>
+		<string>Kollektif.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -60,5 +92,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>microsoft_Scheme</key>
+	<string>micro1234</string>
 </dict>
 </plist>

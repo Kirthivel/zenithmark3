@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1649285524B57EF300DBDD10 /* postTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1649285324B57EF300DBDD10 /* postTableViewCell.swift */; };
+		1649285624B57EF300DBDD10 /* postTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1649285424B57EF300DBDD10 /* postTableViewCell.xib */; };
+		164AF70324B628E500084AF7 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AF70224B628E500084AF7 /* tabBarViewController.swift */; };
+		164F1E3A24C5729F00C11F45 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164F1E3924C5729F00C11F45 /* swift+gif.swift */; };
+		164F1E3E24C5762500C11F45 /* login.gif in Resources */ = {isa = PBXBuildFile; fileRef = 164F1E3D24C5762500C11F45 /* login.gif */; };
+		164F1E4224C5796300C11F45 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164F1E4124C5796300C11F45 /* firstViewController.swift */; };
+		167C2CED24B79D9700FAC998 /* Kollektif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 167C2CEB24B79D6400FAC998 /* Kollektif-Bold.ttf */; };
+		167C2CEE24B79D9B00FAC998 /* Kollektif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 167C2CEA24B79D6300FAC998 /* Kollektif-BoldItalic.ttf */; };
+		167C2CEF24B79D9E00FAC998 /* Kollektif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 167C2CEC24B79D6500FAC998 /* Kollektif-Italic.ttf */; };
+		167C2CF024B79DA300FAC998 /* Kollektif.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 167C2CE924B79D6200FAC998 /* Kollektif.ttf */; };
+		1687DB8F24BC1C9100F66A37 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687DB8E24BC1C9100F66A37 /* homeScreenViewController.swift */; };
+		168A9D6724F0787600558684 /* officerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A9D6524F0787600558684 /* officerTableViewCell.swift */; };
+		168A9D6824F0787600558684 /* officerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 168A9D6624F0787600558684 /* officerTableViewCell.xib */; };
+		168A9D6C24F08D5B00558684 /* subGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A9D6B24F08D5B00558684 /* subGroupViewController.swift */; };
+		16912FAC24EECB450062F6A1 /* addingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16912FAB24EECB440062F6A1 /* addingViewController.swift */; };
+		16912FAE24EECC960062F6A1 /* newClubInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16912FAD24EECC960062F6A1 /* newClubInfoViewController.swift */; };
+		16C0BCEE248F4F65008355FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BCED248F4F65008355FC /* AppDelegate.swift */; };
+		16C0BCF0248F4F65008355FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BCEF248F4F65008355FC /* SceneDelegate.swift */; };
+		16C0BCF2248F4F65008355FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BCF1248F4F65008355FC /* ViewController.swift */; };
+		16C0BCF5248F4F65008355FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C0BCF3248F4F65008355FC /* Main.storyboard */; };
+		16C0BCF7248F4F66008355FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C0BCF6248F4F66008355FC /* Assets.xcassets */; };
+		16C0BCFA248F4F66008355FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C0BCF8248F4F66008355FC /* LaunchScreen.storyboard */; };
+		16C0BD05248F4F66008355FC /* zenith_mark_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD04248F4F66008355FC /* zenith_mark_3Tests.swift */; };
+		16C0BD10248F4F66008355FC /* zenith_mark_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD0F248F4F66008355FC /* zenith_mark_3UITests.swift */; };
+		16C0BD1E248F4F7F008355FC /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD1D248F4F7F008355FC /* loginViewController.swift */; };
+		16C0BD20248F4F8F008355FC /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD1F248F4F8F008355FC /* signupViewController.swift */; };
+		16C0BD25248F5EF6008355FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16C0BD24248F5EF6008355FC /* GoogleService-Info.plist */; };
+		16C0BD27248F76FE008355FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C0BD26248F76FE008355FC /* Constants.swift */; };
+		16D3885724BB979D0089C5F3 /* upcomingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3885624BB979D0089C5F3 /* upcomingTableViewController.swift */; };
+		16D3885E24BBAA820089C5F3 /* newClubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D3885C24BBAA820089C5F3 /* newClubTableViewCell.swift */; };
+		16D3885F24BBAA820089C5F3 /* newClubTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16D3885D24BBAA820089C5F3 /* newClubTableViewCell.xib */; };
+		16D805D924E4E45700BE14E8 /* testerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D805D824E4E45700BE14E8 /* testerViewController.swift */; };
+		16DA29BE24D35C47006F148F /* commTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA29BD24D35C47006F148F /* commTableViewController.swift */; };
+		16DA29C024D48A1A006F148F /* officerManagerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DA29BF24D48A1A006F148F /* officerManagerTableViewCell.swift */; };
+		183374BD24DC7344003F62FE /* dmBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183374BC24DC7344003F62FE /* dmBoxTableViewCell.swift */; };
+		185ECEBE24E22619004DC251 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ECEBD24E22619004DC251 /* Chat.swift */; };
+		185ECEC024E23D7E004DC251 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185ECEBF24E23D7E004DC251 /* Message.swift */; };
+		188497A324C62A510047F28F /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188497A224C62A510047F28F /* helper.swift */; };
+		1894352D24DF7F5600056F71 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894352C24DF7F5600056F71 /* chatViewController.swift */; };
+		189D6ADB24D09C2B00D1E16D /* createUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D6ADA24D09C2B00D1E16D /* createUsernameViewController.swift */; };
+		18A1BF4A24DDD5970077887C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1BF4924DDD5970077887C /* DatabaseManager.swift */; };
+		5356B952976A584832954A22 /* Pods_zenithmark3_zenithmark3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D3F194B0D8E5B51F6694E0 /* Pods_zenithmark3_zenithmark3UITests.framework */; };
+		9DB5074235FBBAEF119033FC /* Pods_zenithmark3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFE35E2FD6B16A78F80789 /* Pods_zenithmark3Tests.framework */; };
+		9EFB2E6277FEABC88DB45981 /* Pods_zenithmark3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEA5063ADB3D640C7E03C6D /* Pods_zenithmark3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C0BD01248F4F66008355FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C0BCE2248F4F65008355FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C0BCE9248F4F65008355FC;
+			remoteInfo = "zenith mark 3";
+		};
+		16C0BD0C248F4F66008355FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C0BCE2248F4F65008355FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C0BCE9248F4F65008355FC;
+			remoteInfo = "zenith mark 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067A26AF2F15C622B6A508D8 /* Pods-zenithmark3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenithmark3Tests.release.xcconfig"; path = "Target Support Files/Pods-zenithmark3Tests/Pods-zenithmark3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1649285324B57EF300DBDD10 /* postTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postTableViewCell.swift; sourceTree = "<group>"; };
+		1649285424B57EF300DBDD10 /* postTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = postTableViewCell.xib; sourceTree = "<group>"; };
+		164AF70224B628E500084AF7 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		164F1E3924C5729F00C11F45 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
+		164F1E3D24C5762500C11F45 /* login.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = login.gif; sourceTree = "<group>"; };
+		164F1E4124C5796300C11F45 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		1653DAE324CA876B009ACDFD /* Zenith.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zenith.entitlements; sourceTree = "<group>"; };
+		165FAF1424CD38E600D922F6 /* ZenithDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZenithDebug.entitlements; sourceTree = "<group>"; };
+		167C2CE924B79D6200FAC998 /* Kollektif.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kollektif.ttf; sourceTree = "<group>"; };
+		167C2CEA24B79D6300FAC998 /* Kollektif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kollektif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		167C2CEB24B79D6400FAC998 /* Kollektif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kollektif-Bold.ttf"; sourceTree = "<group>"; };
+		167C2CEC24B79D6500FAC998 /* Kollektif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kollektif-Italic.ttf"; sourceTree = "<group>"; };
+		1687DB8E24BC1C9100F66A37 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
+		168A9D6524F0787600558684 /* officerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = officerTableViewCell.swift; sourceTree = "<group>"; };
+		168A9D6624F0787600558684 /* officerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = officerTableViewCell.xib; sourceTree = "<group>"; };
+		168A9D6B24F08D5B00558684 /* subGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subGroupViewController.swift; sourceTree = "<group>"; };
+		16912FAB24EECB440062F6A1 /* addingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addingViewController.swift; sourceTree = "<group>"; };
+		16912FAD24EECC960062F6A1 /* newClubInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newClubInfoViewController.swift; sourceTree = "<group>"; };
+		16C0BCEA248F4F65008355FC /* Zenith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C0BCED248F4F65008355FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16C0BCEF248F4F65008355FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16C0BCF1248F4F65008355FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16C0BCF4248F4F65008355FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16C0BCF6248F4F66008355FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16C0BCF9248F4F66008355FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16C0BCFB248F4F66008355FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C0BD00248F4F66008355FC /* zenithmark3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenithmark3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C0BD04248F4F66008355FC /* zenith_mark_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zenith_mark_3Tests.swift; sourceTree = "<group>"; };
+		16C0BD06248F4F66008355FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C0BD0B248F4F66008355FC /* zenithmark3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenithmark3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C0BD0F248F4F66008355FC /* zenith_mark_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zenith_mark_3UITests.swift; sourceTree = "<group>"; };
+		16C0BD11248F4F66008355FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C0BD1D248F4F7F008355FC /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		16C0BD1F248F4F8F008355FC /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		16C0BD24248F5EF6008355FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16C0BD26248F76FE008355FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		16D3885624BB979D0089C5F3 /* upcomingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upcomingTableViewController.swift; sourceTree = "<group>"; };
+		16D3885C24BBAA820089C5F3 /* newClubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newClubTableViewCell.swift; sourceTree = "<group>"; };
+		16D3885D24BBAA820089C5F3 /* newClubTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newClubTableViewCell.xib; sourceTree = "<group>"; };
+		16D805D824E4E45700BE14E8 /* testerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testerViewController.swift; sourceTree = "<group>"; };
+		16DA29BD24D35C47006F148F /* commTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commTableViewController.swift; sourceTree = "<group>"; };
+		16DA29BF24D48A1A006F148F /* officerManagerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = officerManagerTableViewCell.swift; sourceTree = "<group>"; };
+		183374BC24DC7344003F62FE /* dmBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dmBoxTableViewCell.swift; sourceTree = "<group>"; };
+		185ECEBD24E22619004DC251 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chat.swift; path = "zenith mark 3/Chat.swift"; sourceTree = SOURCE_ROOT; };
+		185ECEBF24E23D7E004DC251 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		188497A224C62A510047F28F /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		1894352C24DF7F5600056F71 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		189D6ADA24D09C2B00D1E16D /* createUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = createUsernameViewController.swift; path = "zenith mark 3/ViewControllers/createUsernameViewController.swift"; sourceTree = SOURCE_ROOT; };
+		18A1BF4924DDD5970077887C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		39AC2A7088DCDA67F6BF4969 /* Pods-zenithmark3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenithmark3Tests.debug.xcconfig"; path = "Target Support Files/Pods-zenithmark3Tests/Pods-zenithmark3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		66DFE35E2FD6B16A78F80789 /* Pods_zenithmark3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zenithmark3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7C4F7774D040EDDAA9D87F /* Pods-zenithmark3-zenithmark3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenithmark3-zenithmark3UITests.release.xcconfig"; path = "Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		761962F0D75399078CA9D7D9 /* Pods-zenithmark3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenithmark3.debug.xcconfig"; path = "Target Support Files/Pods-zenithmark3/Pods-zenithmark3.debug.xcconfig"; sourceTree = "<group>"; };
+		C32571E3AFB16D95733FDE04 /* Pods-zenithmark3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenithmark3.release.xcconfig"; path = "Target Support Files/Pods-zenithmark3/Pods-zenithmark3.release.xcconfig"; sourceTree = "<group>"; };
+		D6D3F194B0D8E5B51F6694E0 /* Pods_zenithmark3_zenithmark3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zenithmark3_zenithmark3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E548E092DB2B1D79E9CCC6DB /* Pods-zenithmark3-zenithmark3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zenithmark3-zenithmark3UITests.debug.xcconfig"; path = "Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBEA5063ADB3D640C7E03C6D /* Pods_zenithmark3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zenithmark3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C0BCE7248F4F65008355FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFB2E6277FEABC88DB45981 /* Pods_zenithmark3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C0BCFD248F4F66008355FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5074235FBBAEF119033FC /* Pods_zenithmark3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C0BD08248F4F66008355FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5356B952976A584832954A22 /* Pods_zenithmark3_zenithmark3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144B8ABF641973DA119A39CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				761962F0D75399078CA9D7D9 /* Pods-zenithmark3.debug.xcconfig */,
+				C32571E3AFB16D95733FDE04 /* Pods-zenithmark3.release.xcconfig */,
+				E548E092DB2B1D79E9CCC6DB /* Pods-zenithmark3-zenithmark3UITests.debug.xcconfig */,
+				6E7C4F7774D040EDDAA9D87F /* Pods-zenithmark3-zenithmark3UITests.release.xcconfig */,
+				39AC2A7088DCDA67F6BF4969 /* Pods-zenithmark3Tests.debug.xcconfig */,
+				067A26AF2F15C622B6A508D8 /* Pods-zenithmark3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		165ADD8824C61465004169A7 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				164F1E3D24C5762500C11F45 /* login.gif */,
+				164F1E3924C5729F00C11F45 /* swift+gif.swift */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		167C2CE824B79D3400FAC998 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				167C2CEB24B79D6400FAC998 /* Kollektif-Bold.ttf */,
+				167C2CEA24B79D6300FAC998 /* Kollektif-BoldItalic.ttf */,
+				167C2CEC24B79D6500FAC998 /* Kollektif-Italic.ttf */,
+				167C2CE924B79D6200FAC998 /* Kollektif.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		16C0BCE1248F4F65008355FC = {
+			isa = PBXGroup;
+			children = (
+				165FAF1424CD38E600D922F6 /* ZenithDebug.entitlements */,
+				1653DAE324CA876B009ACDFD /* Zenith.entitlements */,
+				16C0BCEC248F4F65008355FC /* zenith mark 3 */,
+				16C0BD03248F4F66008355FC /* zenith mark 3Tests */,
+				16C0BD0E248F4F66008355FC /* zenith mark 3UITests */,
+				16C0BCEB248F4F65008355FC /* Products */,
+				144B8ABF641973DA119A39CD /* Pods */,
+				38E81E9E9A4A33EEE83677EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16C0BCEB248F4F65008355FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C0BCEA248F4F65008355FC /* Zenith.app */,
+				16C0BD00248F4F66008355FC /* zenithmark3Tests.xctest */,
+				16C0BD0B248F4F66008355FC /* zenithmark3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C0BCEC248F4F65008355FC /* zenith mark 3 */ = {
+			isa = PBXGroup;
+			children = (
+				16F972DE24C503980023A8D2 /* Navigation Controllers */,
+				16F972DA24C503100023A8D2 /* Table View Controllers */,
+				16F972D924C502990023A8D2 /* Tab Bar Controller(s) */,
+				16F972D724C502540023A8D2 /* Custom Cells */,
+				16C0BD23248F4FA9008355FC /* ViewControllers */,
+				16C0BCF3248F4F65008355FC /* Main.storyboard */,
+				168A9D6B24F08D5B00558684 /* subGroupViewController.swift */,
+				16D805D824E4E45700BE14E8 /* testerViewController.swift */,
+				185ECEBD24E22619004DC251 /* Chat.swift */,
+				185ECEBF24E23D7E004DC251 /* Message.swift */,
+				16F972DB24C503340023A8D2 /* Extras */,
+				165ADD8824C61465004169A7 /* GIF */,
+				16C0BCFB248F4F66008355FC /* Info.plist */,
+			);
+			path = "zenith mark 3";
+			sourceTree = "<group>";
+		};
+		16C0BD03248F4F66008355FC /* zenith mark 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16C0BD04248F4F66008355FC /* zenith_mark_3Tests.swift */,
+				16C0BD06248F4F66008355FC /* Info.plist */,
+			);
+			path = "zenith mark 3Tests";
+			sourceTree = "<group>";
+		};
+		16C0BD0E248F4F66008355FC /* zenith mark 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16C0BD0F248F4F66008355FC /* zenith_mark_3UITests.swift */,
+				16C0BD11248F4F66008355FC /* Info.plist */,
+			);
+			path = "zenith mark 3UITests";
+			sourceTree = "<group>";
+		};
+		16C0BD23248F4FA9008355FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				16912FAB24EECB440062F6A1 /* addingViewController.swift */,
+				1894352C24DF7F5600056F71 /* chatViewController.swift */,
+				16C0BCF1248F4F65008355FC /* ViewController.swift */,
+				16C0BD1D248F4F7F008355FC /* loginViewController.swift */,
+				16912FAD24EECC960062F6A1 /* newClubInfoViewController.swift */,
+				16C0BD1F248F4F8F008355FC /* signupViewController.swift */,
+				164F1E4124C5796300C11F45 /* firstViewController.swift */,
+				189D6ADA24D09C2B00D1E16D /* createUsernameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		16F972D724C502540023A8D2 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				168A9D6524F0787600558684 /* officerTableViewCell.swift */,
+				168A9D6624F0787600558684 /* officerTableViewCell.xib */,
+				183374BC24DC7344003F62FE /* dmBoxTableViewCell.swift */,
+				16DA29BF24D48A1A006F148F /* officerManagerTableViewCell.swift */,
+				16D3885C24BBAA820089C5F3 /* newClubTableViewCell.swift */,
+				16D3885D24BBAA820089C5F3 /* newClubTableViewCell.xib */,
+				1649285324B57EF300DBDD10 /* postTableViewCell.swift */,
+				1649285424B57EF300DBDD10 /* postTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		16F972D924C502990023A8D2 /* Tab Bar Controller(s) */ = {
+			isa = PBXGroup;
+			children = (
+				164AF70224B628E500084AF7 /* tabBarViewController.swift */,
+			);
+			path = "Tab Bar Controller(s)";
+			sourceTree = "<group>";
+		};
+		16F972DA24C503100023A8D2 /* Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1687DB8E24BC1C9100F66A37 /* homeScreenViewController.swift */,
+				16D3885624BB979D0089C5F3 /* upcomingTableViewController.swift */,
+				16DA29BD24D35C47006F148F /* commTableViewController.swift */,
+			);
+			name = "Table View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		16F972DB24C503340023A8D2 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				16C0BCED248F4F65008355FC /* AppDelegate.swift */,
+				18A1BF4924DDD5970077887C /* DatabaseManager.swift */,
+				16C0BCEF248F4F65008355FC /* SceneDelegate.swift */,
+				167C2CE824B79D3400FAC998 /* Fonts */,
+				16C0BD26248F76FE008355FC /* Constants.swift */,
+				16C0BCF6248F4F66008355FC /* Assets.xcassets */,
+				16C0BCF8248F4F66008355FC /* LaunchScreen.storyboard */,
+				16C0BD24248F5EF6008355FC /* GoogleService-Info.plist */,
+				188497A224C62A510047F28F /* helper.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		16F972DE24C503980023A8D2 /* Navigation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Navigation Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38E81E9E9A4A33EEE83677EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBEA5063ADB3D640C7E03C6D /* Pods_zenithmark3.framework */,
+				D6D3F194B0D8E5B51F6694E0 /* Pods_zenithmark3_zenithmark3UITests.framework */,
+				66DFE35E2FD6B16A78F80789 /* Pods_zenithmark3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C0BCE9248F4F65008355FC /* zenithmark3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C0BD14248F4F66008355FC /* Build configuration list for PBXNativeTarget "zenithmark3" */;
+			buildPhases = (
+				B6757147D47BE51D0B73D398 /* [CP] Check Pods Manifest.lock */,
+				16C0BCE6248F4F65008355FC /* Sources */,
+				16C0BCE7248F4F65008355FC /* Frameworks */,
+				16C0BCE8248F4F65008355FC /* Resources */,
+				FBC3F2BA695F23A8F506C94F /* [CP] Embed Pods Frameworks */,
+				99D6813E72DA7C2E6B08CCCB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenithmark3;
+			productName = "zenith mark 3";
+			productReference = 16C0BCEA248F4F65008355FC /* Zenith.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C0BCFF248F4F66008355FC /* zenithmark3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C0BD17248F4F66008355FC /* Build configuration list for PBXNativeTarget "zenithmark3Tests" */;
+			buildPhases = (
+				F92712BB87EC0DA1105F7325 /* [CP] Check Pods Manifest.lock */,
+				16C0BCFC248F4F66008355FC /* Sources */,
+				16C0BCFD248F4F66008355FC /* Frameworks */,
+				16C0BCFE248F4F66008355FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C0BD02248F4F66008355FC /* PBXTargetDependency */,
+			);
+			name = zenithmark3Tests;
+			productName = "zenith mark 3Tests";
+			productReference = 16C0BD00248F4F66008355FC /* zenithmark3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16C0BD0A248F4F66008355FC /* zenithmark3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C0BD1A248F4F66008355FC /* Build configuration list for PBXNativeTarget "zenithmark3UITests" */;
+			buildPhases = (
+				21475C81A5C8FBC33727D3AB /* [CP] Check Pods Manifest.lock */,
+				16C0BD07248F4F66008355FC /* Sources */,
+				16C0BD08248F4F66008355FC /* Frameworks */,
+				16C0BD09248F4F66008355FC /* Resources */,
+				1F46780E424D1B56521BAC80 /* [CP] Embed Pods Frameworks */,
+				6B2AA543C5A1E122545DDF36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C0BD0D248F4F66008355FC /* PBXTargetDependency */,
+			);
+			name = zenithmark3UITests;
+			productName = "zenith mark 3UITests";
+			productReference = 16C0BD0B248F4F66008355FC /* zenithmark3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C0BCE2248F4F65008355FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Zenith Technologies";
+				TargetAttributes = {
+					16C0BCE9248F4F65008355FC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					16C0BCFF248F4F66008355FC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 16C0BCE9248F4F65008355FC;
+					};
+					16C0BD0A248F4F66008355FC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 16C0BCE9248F4F65008355FC;
+					};
+				};
+			};
+			buildConfigurationList = 16C0BCE5248F4F65008355FC /* Build configuration list for PBXProject "zenithmark3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16C0BCE1248F4F65008355FC;
+			productRefGroup = 16C0BCEB248F4F65008355FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C0BCE9248F4F65008355FC /* zenithmark3 */,
+				16C0BCFF248F4F66008355FC /* zenithmark3Tests */,
+				16C0BD0A248F4F66008355FC /* zenithmark3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C0BCE8248F4F65008355FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D3885F24BBAA820089C5F3 /* newClubTableViewCell.xib in Resources */,
+				167C2CEF24B79D9E00FAC998 /* Kollektif-Italic.ttf in Resources */,
+				168A9D6824F0787600558684 /* officerTableViewCell.xib in Resources */,
+				16C0BCFA248F4F66008355FC /* LaunchScreen.storyboard in Resources */,
+				167C2CED24B79D9700FAC998 /* Kollektif-Bold.ttf in Resources */,
+				16C0BD25248F5EF6008355FC /* GoogleService-Info.plist in Resources */,
+				167C2CEE24B79D9B00FAC998 /* Kollektif-BoldItalic.ttf in Resources */,
+				164F1E3E24C5762500C11F45 /* login.gif in Resources */,
+				16C0BCF7248F4F66008355FC /* Assets.xcassets in Resources */,
+				167C2CF024B79DA300FAC998 /* Kollektif.ttf in Resources */,
+				16C0BCF5248F4F65008355FC /* Main.storyboard in Resources */,
+				1649285624B57EF300DBDD10 /* postTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C0BCFE248F4F66008355FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C0BD09248F4F66008355FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F46780E424D1B56521BAC80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21475C81A5C8FBC33727D3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenithmark3-zenithmark3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2AA543C5A1E122545DDF36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenithmark3-zenithmark3UITests/Pods-zenithmark3-zenithmark3UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D6813E72DA7C2E6B08CCCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3/Pods-zenithmark3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3/Pods-zenithmark3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenithmark3/Pods-zenithmark3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6757147D47BE51D0B73D398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenithmark3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92712BB87EC0DA1105F7325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zenithmark3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC3F2BA695F23A8F506C94F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3/Pods-zenithmark3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zenithmark3/Pods-zenithmark3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zenithmark3/Pods-zenithmark3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C0BCE6248F4F65008355FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D3885E24BBAA820089C5F3 /* newClubTableViewCell.swift in Sources */,
+				1687DB8F24BC1C9100F66A37 /* homeScreenViewController.swift in Sources */,
+				16C0BD1E248F4F7F008355FC /* loginViewController.swift in Sources */,
+				16912FAE24EECC960062F6A1 /* newClubInfoViewController.swift in Sources */,
+				188497A324C62A510047F28F /* helper.swift in Sources */,
+				16D3885724BB979D0089C5F3 /* upcomingTableViewController.swift in Sources */,
+				164F1E3A24C5729F00C11F45 /* swift+gif.swift in Sources */,
+				1894352D24DF7F5600056F71 /* chatViewController.swift in Sources */,
+				1649285524B57EF300DBDD10 /* postTableViewCell.swift in Sources */,
+				183374BD24DC7344003F62FE /* dmBoxTableViewCell.swift in Sources */,
+				16DA29BE24D35C47006F148F /* commTableViewController.swift in Sources */,
+				164AF70324B628E500084AF7 /* tabBarViewController.swift in Sources */,
+				16C0BCF2248F4F65008355FC /* ViewController.swift in Sources */,
+				16D805D924E4E45700BE14E8 /* testerViewController.swift in Sources */,
+				18A1BF4A24DDD5970077887C /* DatabaseManager.swift in Sources */,
+				16C0BD20248F4F8F008355FC /* signupViewController.swift in Sources */,
+				168A9D6724F0787600558684 /* officerTableViewCell.swift in Sources */,
+				16DA29C024D48A1A006F148F /* officerManagerTableViewCell.swift in Sources */,
+				16C0BD27248F76FE008355FC /* Constants.swift in Sources */,
+				185ECEBE24E22619004DC251 /* Chat.swift in Sources */,
+				185ECEC024E23D7E004DC251 /* Message.swift in Sources */,
+				16912FAC24EECB450062F6A1 /* addingViewController.swift in Sources */,
+				189D6ADB24D09C2B00D1E16D /* createUsernameViewController.swift in Sources */,
+				16C0BCEE248F4F65008355FC /* AppDelegate.swift in Sources */,
+				16C0BCF0248F4F65008355FC /* SceneDelegate.swift in Sources */,
+				168A9D6C24F08D5B00558684 /* subGroupViewController.swift in Sources */,
+				164F1E4224C5796300C11F45 /* firstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C0BCFC248F4F66008355FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C0BD05248F4F66008355FC /* zenith_mark_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C0BD07248F4F66008355FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C0BD10248F4F66008355FC /* zenith_mark_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C0BD02248F4F66008355FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C0BCE9248F4F65008355FC /* zenithmark3 */;
+			targetProxy = 16C0BD01248F4F66008355FC /* PBXContainerItemProxy */;
+		};
+		16C0BD0D248F4F66008355FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C0BCE9248F4F65008355FC /* zenithmark3 */;
+			targetProxy = 16C0BD0C248F4F66008355FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16C0BCF3248F4F65008355FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C0BCF4248F4F65008355FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16C0BCF8248F4F66008355FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C0BCF9248F4F66008355FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C0BD12248F4F66008355FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16C0BD13248F4F66008355FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C0BD15248F4F66008355FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761962F0D75399078CA9D7D9 /* Pods-zenithmark3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZenithDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62R89S8YKS;
+				INFOPLIST_FILE = "zenith mark 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bose.zenith-mark-3";
+				PRODUCT_NAME = Zenith;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16C0BD16248F4F66008355FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32571E3AFB16D95733FDE04 /* Pods-zenithmark3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zenith.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP5MKX387K;
+				INFOPLIST_FILE = "zenith mark 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bose.zenith-mark-3";
+				PRODUCT_NAME = Zenith;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16C0BD18248F4F66008355FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AC2A7088DCDA67F6BF4969 /* Pods-zenithmark3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62R89S8YKS;
+				INFOPLIST_FILE = "zenith mark 3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bose.zenith-mark-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenithmark3.app/zenithmark3";
+			};
+			name = Debug;
+		};
+		16C0BD19248F4F66008355FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067A26AF2F15C622B6A508D8 /* Pods-zenithmark3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62R89S8YKS;
+				INFOPLIST_FILE = "zenith mark 3Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bose.zenith-mark-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenithmark3.app/zenithmark3";
+			};
+			name = Release;
+		};
+		16C0BD1B248F4F66008355FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E548E092DB2B1D79E9CCC6DB /* Pods-zenithmark3-zenithmark3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62R89S8YKS;
+				INFOPLIST_FILE = "zenith mark 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bose.zenith-mark-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zenith mark 3";
+			};
+			name = Debug;
+		};
+		16C0BD1C248F4F66008355FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7C4F7774D040EDDAA9D87F /* Pods-zenithmark3-zenithmark3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62R89S8YKS;
+				INFOPLIST_FILE = "zenith mark 3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bose.zenith-mark-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "zenith mark 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C0BCE5248F4F65008355FC /* Build configuration list for PBXProject "zenithmark3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C0BD12248F4F66008355FC /* Debug */,
+				16C0BD13248F4F66008355FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C0BD14248F4F66008355FC /* Build configuration list for PBXNativeTarget "zenithmark3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C0BD15248F4F66008355FC /* Debug */,
+				16C0BD16248F4F66008355FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C0BD17248F4F66008355FC /* Build configuration list for PBXNativeTarget "zenithmark3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C0BD18248F4F66008355FC /* Debug */,
+				16C0BD19248F4F66008355FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C0BD1A248F4F66008355FC /* Build configuration list for PBXNativeTarget "zenithmark3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C0BD1B248F4F66008355FC /* Debug */,
+				16C0BD1C248F4F66008355FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C0BCE2248F4F65008355FC /* Project object */;
+}
